@@ -1,0 +1,43 @@
+{
+  "_comment": "Sanitized config for code review. Replace with real values locally.",
+  "servers": {
+    "A": {
+      "enabled": true,
+      "host": "example-a.server.invalid",
+      "port": 25565,
+      "joinCommand": "/server factions"
+    },
+    "B": {
+      "enabled": true,
+      "host": "example-b.server.invalid",
+      "port": 25565,
+      "joinCommand": "/factions"
+    }
+  },
+  "timing": {
+    "_comment_timing": "All times in milliseconds",
+    "connectSpacingMs": 8000,
+    "connectTimeoutMs": 45000,
+    "hubJoinDelayMinMs": 6000,
+    "hubJoinDelayMaxMs": 10000
+  },
+  "reconnect": {
+    "_comment_backoff": "Exponential backoff delays between reconnection attempts",
+    "socketBackoffMinMs": 120000,
+    "socketBackoffMaxMs": 300000,
+    "kickBackoffMinMs": 600000,
+    "kickBackoffMaxMs": 1200000,
+    "authBackoffMinMs": 900000,
+    "authBackoffMaxMs": 1500000
+  },
+  "testing": {
+    "enabled": false,
+    "autoStart": false,
+    "durationHours": 12,
+    "commandIntervalMs": 90000,
+    "phaseOneAlts": 2,
+    "phaseOneHours": 2,
+    "phaseTwoAlts": 13,
+    "includeDisruptiveCommands": false
+  }
+}

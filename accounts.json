@@ -1,0 +1,14 @@
+{
+  "alts": [
+    {
+      "email": "account_one",
+      "enabled": true,
+      "server": "A"
+    },
+    {
+      "email": "account_two",
+      "enabled": false,
+      "server": "B"
+    }
+  ]
+}

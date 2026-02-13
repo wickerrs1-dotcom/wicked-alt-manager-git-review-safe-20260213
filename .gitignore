@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.local
+secrets/
+logs/
+state/
+*.tmp
+*.temp
+.vscode/
+.idea/
